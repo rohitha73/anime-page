@@ -1,0 +1,18 @@
+body{
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.container-fluid, .dropdown-item {
+    font-weight: bolder;
+    background-color: rgb(253, 19, 58);
+    padding: 10px;
+    font-size: larger;
+}
+.navbar-nav{
+    margin-left: 200px;
+}
+.nav-item{
+    margin-left: 100px;
+}
+
