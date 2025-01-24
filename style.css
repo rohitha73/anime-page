@@ -2,6 +2,7 @@ body{
     font-family: "Oswald", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    background-color: rgb(248, 32, 68);
 }
 .container-fluid, .dropdown-item {
     font-weight: bolder;
@@ -14,5 +15,41 @@ body{
 }
 .nav-item{
     margin-left: 100px;
+}
+.hero{
+    display: flex;
+    margin: 20px;
+    background-color: rgb(1, 18, 32);
+    border-radius: 25px;
+}
+.hero-img{
+    height: 500px;
+    border-radius: 25px;
+    opacity: 0.8;
+}
+.hero-text{
+    text-align: center;
+    font-size: 1.5rem;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 70px;
+    color: white;
+}
+.search-bar{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    width: 100%;
+}
+.watch-anime{
+    padding-top: 50px;
+}
+.btn-watch{
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 60px;
+}
+.btn-watch:hover{
+    background-color: rgb(253, 19, 58);
 }
 
