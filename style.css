@@ -52,4 +52,21 @@ body{
 .btn-watch:hover{
     background-color: rgb(253, 19, 58);
 }
+h2{
+    margin-top: 50px;
+    color: white;
+}
+p, li, .card-title{
+    color: white;
+}
+.card-body, .card{
+    background-color: rgb(1, 18, 32);
+}
+.card{
+    margin: 20px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+}
 
